@@ -70,11 +70,32 @@ git pull然后回车
 ![[Pasted image 20230127131041.png]]
 ## 2.更新仓库
 更新仓库指将本地仓库更新到github仓库，也叫push到github
+在更新仓库前必须先拉取最新仓库进行合并
 在仓库首目录按以下命令执行
 ```shell
 git add .
 ```
+![[Pasted image 20230127132754.png]]
+“注释”为此次更新的备注信息，可更改
+```shell
+git commit -m "注释"
+```
+![[Pasted image 20230127133012.png]]
+最后git push即可更新仓库
+![[Pasted image 20230127133041.png]]
+更新成功后，在github上看到更新结果
+![[Pasted image 20230127133138.png]]
 # 2. Obsidian的使用
+官网下载obsidian
+https://obsidian.md/
 详细使用可参考
 https://publish.obsidian.md/help-zh/Obsidian/Obsidian
-# 3. c++整体学习架构 
+最基本的使用，打开克隆到本地的仓库
+![[Pasted image 20230127133813.png]]
+即有这样的页面
+![[Pasted image 20230127133942.png]]
+编辑语法为markdown，使用ctrl+p可以调出帮助页面
+![[Pasted image 20230127134144.png]]
+图片过小，右键图片查看原图
+![[Pasted image 20230127134249.png]]
+
